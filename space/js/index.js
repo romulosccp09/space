@@ -23,10 +23,15 @@ function load() {
       css += 'left:'+ Math.random() * 100 + '%;';
       css += 'opacity:'+ Math.random() * 5 / 10 + 0.6+';';
       css += 'width:'+ dim + 'px;';
-      css += 'height:'+ dim + 'px;';      
+      css += 'height:'+ dim + 'px;';
       s.setAttribute("style",css);
       sky.appendChild(s);
     }
   }
 
 load();
+function teste (){
+
+  alert("Capital Code");
+
+}
